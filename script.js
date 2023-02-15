@@ -29,19 +29,19 @@ function calcular(event) {
         linha.classList.add('text-white');
     }
 
-    if (imc >= 18.5 && imc <= 24.9) {
+    if (imc >= 18.5 && imc <= 24.99) {
         let linha = document.querySelector('#result_calc_1');
         linha.classList.add('bg-success');
         linha.classList.add('text-white');
     }
 
-    if (imc >= 25.0 && imc <= 29.9) {
+    if (imc >= 25.0 && imc <= 29.99) {
         let linha = document.querySelector('#result_calc_2');
         linha.classList.add('bg-success');
         linha.classList.add('text-white');
     }
 
-    if (imc >= 30.0 && imc <= 39.9) {
+    if (imc >= 30.0 && imc <= 39.99) {
         let linha = document.querySelector('#result_calc_3');
         linha.classList.add('bg-success');
         linha.classList.add('text-white');
